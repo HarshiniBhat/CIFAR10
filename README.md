@@ -9,6 +9,7 @@
 - plotting the accuracy and the loss curve and analysing 
 
 ### Visualising the dataset 
+![](cifar10.png)
 
 ### Data Argumentations using albumentation library 
 ``` python
