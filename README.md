@@ -23,6 +23,7 @@ show_images({
 })
 ```
 ### visualising the data after applying data arguementations
+![](albumentation.png)
 
 
 ### Model architecture 
