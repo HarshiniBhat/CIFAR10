@@ -9,7 +9,7 @@
 - plotting the accuracy and the loss curve and analysing 
 
 ### Visualising the dataset 
-![](cifar10.png)
+![](img/cifar10.png)
 
 ### Data Argumentations using albumentation library 
 Here we are using few of the data argumentations using the albumentation library like HorizontalFlip, VerticalFlip, CoarseDropout, Grayscale.
@@ -25,7 +25,7 @@ show_images({
 })
 ```
 ### visualising the data after applying data arguementations
-![](albumentation.png)
+![](img/albumentation.png)
 
 
 ### Model architecture 
