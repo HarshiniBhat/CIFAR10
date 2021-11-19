@@ -3,10 +3,10 @@
  
 
 - Visualising the downloaded Dataset
-- applying albumentations and then visualising the dataset
-- defining a model 
-- training the model 
-- plotting the accuracy and the loss curve and analysing 
+- Applying albumentations and then visualising the dataset
+- Defining a model 
+- Training the model 
+- Plotting the accuracy and the loss curve and analysing 
 
 ### Visualising the dataset 
 ![](img/cifar10.png)
@@ -106,6 +106,9 @@ Non-trainable params: 0
 | **CONVLUTION 13** |  8 | 4  |	24 | 16	| 1 | 3	| 2 |	4 |	8 |	39 |	47 |
 | **CONVLUTION 14** |  4 | 4  |	16 | 16	| 1 | 3	| 1 |	8 |	8 |	47 |	63 |
 | **CONVLUTION 14** |  4 | 4  |	16 | 10	| 1 | 3	| 1 |	8 |	8 |	63 |	79 |
+
+Analysis :
+With a total of 84,904 parameters the model reached an accuracy of 85.9% within 100 epochs. 
 
 ## Loss and Accuracy Curve
 ![](img/LossAccu.png)
