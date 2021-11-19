@@ -108,5 +108,5 @@ Non-trainable params: 0
 | **CONVLUTION 14** |  4 | 4  |	16 | 10	| 1 | 3	| 1 |	8 |	8 |	63 |	79 |
 
 ## Loss and Accuracy Curve
-![](LossAccu.png)
+![](img/LossAccu.png)
 
