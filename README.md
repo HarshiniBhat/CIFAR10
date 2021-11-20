@@ -95,17 +95,17 @@ Non-trainable params: 0
 | **CONVLUTION 2** |	32 | 32 | 32 | 32 | 1 | 3 | 1 | 1 | 1 | 3 | 5 |
 | **CONVOLUTION 3**|	32 | 30 | 32 | 64 | 0 | 3 | 1 | 1 | 1 | 5 | 7 |
 | **CONVOLUTIONPool** |	30 | 16 | 64 | 64 | 1 | 1 | 2 | 1 | 2 | 7 | 7 |
-| **CONVOLUTION 5** |	16 | 16 | 64 | 64 | 0 | 1 | 1 | 2 | 2 | 7 | 7 |
-| **CONVOLUTION 6depthwise** |	16 | 16 | 64 | 64 | 1 | 3 | 1 | 2 | 2 | 7 | 11 |
-| **CONVOLUTION 7Pointwise** |	16	 | 16 | 64 | 64	| 0	| 1	| 1	| 2 |	2	| 11 |  11 |
-| **CONVOLUTION 8 dilated**  |  16  | 16  |	64 | 32	| 2	| 3	| 1 |	2 |	2 |	11 |	15 |
-| **CONVLUTION 9** |  16  | 8  |	32 | 32	| 1	| 3	| 2 |	2 |	4 |	15 |	23 |
-| **CONVLUTION 10** |  8 | 8  |	32 | 24	| 1	| 3	| 1 |	4 |	4 |	23 |	31 |
-| **CONVLUTION 11depth** |  8 | 8  |	24 | 24	| 1	| 3	| 1 |	4 |	4 |	31 |	39 |
-| **CONVLUTION 12point** |  8 | 8  |	24 | 24	| 0 | 1	| 1 |	4 |	4 |	39 |	39 |
-| **CONVLUTION 13** |  8 | 4  |	24 | 16	| 1 | 3	| 2 |	4 |	8 |	39 |	47 |
-| **CONVLUTION 14** |  4 | 4  |	16 | 16	| 1 | 3	| 1 |	8 |	8 |	47 |	63 |
-| **CONVLUTION 14** |  4 | 4  |	16 | 10	| 1 | 3	| 1 |	8 |	8 |	63 |	79 |
+| **CONVOLUTION5** |	16 | 16 | 64 | 64 | 0 | 1 | 1 | 2 | 2 | 7 | 7 |
+| **CONVOLUTION6 depthwise** |	16 | 16 | 64 | 64 | 1 | 3 | 1 | 2 | 2 | 7 | 11 |
+| **CONVOLUTION7 Pointwise** |	16	 | 16 | 64 | 64	| 0	| 1	| 1	| 2 |	2	| 11 |  11 |
+| **CONVOLUTION8 dilated**  |  16  | 16  |	64 | 32	| 2	| 3	| 1 |	2 |	2 |	11 |	15 |
+| **CONVLUTION9** |  16  | 8  |	32 | 32	| 1	| 3	| 2 |	2 |	4 |	15 |	23 |
+| **CONVLUTION10** |  8 | 8  |	32 | 24	| 1	| 3	| 1 |	4 |	4 |	23 |	31 |
+| **CONVLUTION11depth** |  8 | 8  |	24 | 24	| 1	| 3	| 1 |	4 |	4 |	31 |	39 |
+| **CONVLUTION12point** |  8 | 8  |	24 | 24	| 0 | 1	| 1 |	4 |	4 |	39 |	39 |
+| **CONVLUTION13** |  8 | 4  |	24 | 16	| 1 | 3	| 2 |	4 |	8 |	39 |	47 |
+| **CONVLUTION14** |  4 | 4  |	16 | 16	| 1 | 3	| 1 |	8 |	8 |	47 |	63 |
+| **CONVLUTION15** |  4 | 4  |	16 | 10	| 1 | 3	| 1 |	8 |	8 |	63 |	79 |
 
 Analysis :
 With a total of 84,904 parameters the model reached an accuracy of 85.9% within 100 epochs. 
